@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		519B06CF28A573A3002DB37E /* Lobster-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 519B06CE28A573A3002DB37E /* Lobster-Regular.ttf */; };
+		519B06D728A57743002DB37E /* FavouritesSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519B06D628A57743002DB37E /* FavouritesSection.swift */; };
 		51D7CA5728A4419100C63BEE /* FavouritesSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D7CA5628A4419100C63BEE /* FavouritesSwiftUIApp.swift */; };
 		51D7CA5928A4419100C63BEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D7CA5828A4419100C63BEE /* ContentView.swift */; };
 		51D7CA5B28A4419400C63BEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51D7CA5A28A4419400C63BEE /* Assets.xcassets */; };
@@ -15,9 +17,13 @@
 		51D7CA6F28A4575900C63BEE /* FavouritesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D7CA6E28A4575900C63BEE /* FavouritesRow.swift */; };
 		51D7CA7228A4589600C63BEE /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D7CA7128A4589600C63BEE /* DataManager.swift */; };
 		51D7CA7428A459D900C63BEE /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D7CA7328A459D900C63BEE /* DataModel.swift */; };
+		51D7CA7728A4656D00C63BEE /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D7CA7628A4656D00C63BEE /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		519B06CD28A570D4002DB37E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		519B06CE28A573A3002DB37E /* Lobster-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lobster-Regular.ttf"; sourceTree = "<group>"; };
+		519B06D628A57743002DB37E /* FavouritesSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesSection.swift; sourceTree = "<group>"; };
 		51D7CA5328A4419100C63BEE /* FavouritesSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavouritesSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51D7CA5628A4419100C63BEE /* FavouritesSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesSwiftUIApp.swift; sourceTree = "<group>"; };
 		51D7CA5828A4419100C63BEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -27,6 +33,7 @@
 		51D7CA6E28A4575900C63BEE /* FavouritesRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesRow.swift; sourceTree = "<group>"; };
 		51D7CA7128A4589600C63BEE /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		51D7CA7328A459D900C63BEE /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		51D7CA7628A4656D00C63BEE /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +47,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		519B06CA28A56FA4002DB37E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				519B06CE28A573A3002DB37E /* Lobster-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		51D7CA4A28A4419100C63BEE = {
 			isa = PBXGroup;
 			children = (
@@ -59,8 +74,10 @@
 		51D7CA5528A4419100C63BEE /* FavouritesSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				519B06CD28A570D4002DB37E /* Info.plist */,
+				519B06CA28A56FA4002DB37E /* Fonts */,
+				51D7CA7528A4655F00C63BEE /* Views */,
 				51D7CA7028A4582600C63BEE /* Models */,
-				51D7CA6C28A4573E00C63BEE /* FavouritesViews */,
 				51D7CA5628A4419100C63BEE /* FavouritesSwiftUIApp.swift */,
 				51D7CA5828A4419100C63BEE /* ContentView.swift */,
 				51D7CA5A28A4419400C63BEE /* Assets.xcassets */,
@@ -91,8 +108,18 @@
 			children = (
 				51D7CA7128A4589600C63BEE /* DataManager.swift */,
 				51D7CA7328A459D900C63BEE /* DataModel.swift */,
+				519B06D628A57743002DB37E /* FavouritesSection.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		51D7CA7528A4655F00C63BEE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				51D7CA6C28A4573E00C63BEE /* FavouritesViews */,
+				51D7CA7628A4656D00C63BEE /* DetailView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				51D7CA5E28A4419400C63BEE /* Preview Assets.xcassets in Resources */,
+				519B06CF28A573A3002DB37E /* Lobster-Regular.ttf in Resources */,
 				51D7CA5B28A4419400C63BEE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -168,7 +196,9 @@
 				51D7CA6B28A4570400C63BEE /* FavouritesList.swift in Sources */,
 				51D7CA7228A4589600C63BEE /* DataManager.swift in Sources */,
 				51D7CA5928A4419100C63BEE /* ContentView.swift in Sources */,
+				51D7CA7728A4656D00C63BEE /* DetailView.swift in Sources */,
 				51D7CA6F28A4575900C63BEE /* FavouritesRow.swift in Sources */,
+				519B06D728A57743002DB37E /* FavouritesSection.swift in Sources */,
 				51D7CA5728A4419100C63BEE /* FavouritesSwiftUIApp.swift in Sources */,
 				51D7CA7428A459D900C63BEE /* DataModel.swift in Sources */,
 			);
@@ -302,6 +332,7 @@
 				DEVELOPMENT_TEAM = F26DHS538R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FavouritesSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -331,6 +362,7 @@
 				DEVELOPMENT_TEAM = F26DHS538R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FavouritesSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -10,13 +10,21 @@ import SwiftUI
 struct FavouritesList: View {
     private var dataManager = DataManager()
     
+    init() {
+        UINavigationBar.appearance().largeTitleTextAttributes = [.font : UIFont(name: "Lobster-Regular", size: 40)!]
+        UINavigationBar.appearance().titleTextAttributes = [.font : UIFont(name: "Lobster-Regular", size: 20)!]
+    }
+    
     var body: some View {
         NavigationView {
             List(dataManager.data) { favourite in
                 NavigationLink {
-//                    FavouritesRow(imageName: favourite.imageName, text: favourite.name)
+                    DetailView(dataModel: favourite)
                 } label: {
-                    FavouritesRow(imageName: favourite.imageName, text: favourite.name)
+                    FavouritesRow(imageName: favourite.imageName,
+                                  text: favourite.name)
+                    .font(.custom("Lobster",
+                                  size: 20))
                 }
             }
             .navigationTitle("Favourites")

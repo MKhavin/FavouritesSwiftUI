@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "name": "Link",
+    "imageName": "Link",
+    "section": "GameCharacter",
+    "description": "Link is the main character and protagonist of the The Legend of Zelda series. He has appeared across many incarnations throughout the series, usually depicted as an ordinary boy or young man who becomes a legendary hero by saving the world through feats of courage. He is often the holder of the Triforce of Courage, a sign of his being chosen by the Golden Goddesses. He is typically seen wielding a sword and shield, most often the Master Sword and Hylian Shield. Specific incarnations of Link may be distinguished by titles such as the Hero of Time in Ocarina of Time and the Hero of Winds in The Wind Waker. All incarnations of Link possess the spirit of the hero and are thereby destined to fight evil."
+  },
+  
+  {
+    "id": 2,
+    "name": "Al Pacino",
+    "imageName": "AlPacino",
+    "section": "Actor",
+    "description": "Alfredo James Pacino (born April 25, 1940) is an American actor. Considered one of the most influential actors of the 20th century, he has received numerous accolades: including an Academy Award, two Tony Awards, and two Primetime Emmy Awards, making him one of the few performers to have achieved the Triple Crown of Acting. He has also been honored with the AFI Life Achievement Award, the Cecil B. DeMille Award, and the National Medal of Arts."
+  },
+
+  {
+    "id": 3,
+    "name": "Altair",
+    "imageName": "Altair",
+    "section": "GameCharacter",
+    "description": "Altaïr Ibn-La'Ahad (الطائر ابن لا أحد‎, 1165 – 1257) was a member of the Levantine Brotherhood of Assassins who served as their Mentor from 1191 until his death in 1257. During his tenure as Mentor, through the knowledge of an Apple of Eden, Altaïr made several discoveries and inventions that greatly helped the Order's progression. His leadership saw to the spread of the Assassins' influence throughout the Old World."
+  },
+
+  {
+    "id": 4,
+    "name": "Batman",
+    "imageName": "Batman",
+    "section": "ComixCharacter",
+    "description": "Batman is a superhero published by DC Comics. Operating in Gotham City, he serves as its protector, using the symbol of a bat to strike fear into the hearts of criminals. Unlike other superheroes, Batman is often depicted to lack any \"superpowers\", instead using lifelong training and equipment to fight crime. His secret identity is Bruce Wayne, a rich playboy and philanthropist who swore to fight crime after witnessing his parents' brutal murder. He has served as a member of various teams, including the Justice League, the Justice Society of America and the Outsiders."
+  },
+
+  {
+    "id": 5,
+    "name": "Clint Eastwood",
+    "imageName": "ClintEastwood",
+    "section": "Actor",
+    "description": "Clinton Eastwood Jr. (born May 31, 1930) is an American actor, film director and producer. After achieving success in the Western TV series Rawhide, he rose to international fame with his role as the \"Man with No Name\" in Sergio Leone's \"Dollars Trilogy\" of Spaghetti Westerns during the mid-1960s and as antihero cop Harry Callahan in the five Dirty Harry films throughout the 1970s and 1980s. These roles, among others, have made Eastwood an enduring cultural icon of masculinity. Elected in 1986, Eastwood served for two years as the mayor of Carmel-by-the-Sea, California."
+  },
+
+  {
+    "id": 6,
+    "name": "Cristiano Ronaldo",
+    "imageName": "CristianoRonaldo",
+    "section": "FootballPlayer",
+    "description": "Cristiano Ronaldo dos Santos Aveiro GOIH ComM (born 5 February 1985) is a Portuguese professional footballer who plays as a forward for Premier League club Manchester United and captains the Portugal national team. Often considered the best player in the world and widely regarded as one of the greatest players of all time, Ronaldo has won five Ballon d'Or awards and four European Golden Shoes, the most by a European player. He has won 32 trophies in his career, including seven league titles, five UEFA Champions Leagues, and the UEFA European Championship. Ronaldo holds the records for most appearances (183), goals (140), and assists (42) in the Champions League, goals in the European Championship (14), international goals (117), and international appearances by a European (189). He is one of the few players to have made over 1,100 professional career appearances, and has scored over 800 official senior career goals for club and country."
+  },
+
+  {
+    "id": 7,
+    "name": "DareDevil",
+    "imageName": "DareDevil",
+    "section": "ComixCharacter",
+    "description": "Matthew Michael \"Matt\" Murdock is a lawyer who had been blinded as a young boy by a radioactive substance that fell into his eyes from a crashed vehicle. Even though he lost his sight, his other four remaining senses were heightened to superhuman levels. After mobsters killed his father, Murdock was trained by Stick to become a warrior, using his disability as an advantage to fight for the Chaste. However, Murdock's compassion for Elektra led him to be rejected by Stick. He then returned to Columbia University with Foggy Nelson to gain his law degree. Murdock dedicated his life to fighting injustice where he could find it in New York City; by day, as a lawyer with his law firm Nelson and Murdock, and by night, as a vigilante known as the Masked Man. Murdock's actions as a crime fighter had eventually put him into conflict with a crime lord named Wilson Fisk. Murdock used his skills to expose Fisk's criminal activities and then have him arrested with Murdock now being known as Daredevil."
+  },
+
+  {
+    "id": 8,
+    "name": "Ezio",
+    "imageName": "Ezio",
+    "section": "GameCharacter",
+    "description": "Ezio Auditore da Firenze (1459 – 1524) was a Florentine nobleman during the Renaissance, and, unbeknownst to most historians and philosophers, a Master Assassin and the Mentor of the Italian Brotherhood of Assassins, a title which he held from 1503 to 1513. He is also an ancestor of William and Desmond Miles, as well as Clay Kaczmarek."
+  },
+
+  {
+    "id": 9,
+    "name": "Leon",
+    "imageName": "Leon",
+    "section": "FilmCharacter",
+    "description": "Léon is an Italian hitman (or \"cleaner\", as he refers to himself) in New York City's Little Italy working for a mafioso named \"Old Tony\". One day, Léon meets Mathilda Lando, a lonely 12-year-old girl. Mathilda lives with her dysfunctional family in an apartment down the hall from Leon, and has stopped attending class at her school for troubled girls. Mathilda's abusive father attracts the ire of corrupt DEA agents, who have been paying him to stash cocaine in his apartment. After they discover he has been stealing the cocaine, DEA agents storm the building, led by their boss, the sharply dressed drug addict Norman Stansfield. During the raid, Stansfield murders Mathilda's family while she is out shopping for groceries. When Mathilda returns, she realizes what has happened just in time to continue down the hall to Léon's apartment; he hesitantly gives her shelter."
+  },
+
+  {
+    "id": 10,
+    "name": "Michael Carleone",
+    "imageName": "MichaelCarleone",
+    "section": "FilmCharacter",
+    "description": "Michael Corleone is a fictional character and the protagonist of Mario Puzo's 1969 novel The Godfather. In the three Godfather films, directed by Francis Ford Coppola, Michael was portrayed by Al Pacino, for which he was twice-nominated for Academy Awards. Michael is the youngest son of Vito Corleone, a Sicilian immigrant who builds a Mafia empire. Upon his father's death, Michael succeeds him as the don of the Corleone crime family."
+  },
+
+  {
+    "id": 11,
+    "name": "The Unforgiven",
+    "imageName": "TheUnforgiven",
+    "section": "Film",
+    "description": "Unforgiven is a 1992 American Revisionist Western film directed, produced by, and starring Clint Eastwood in the lead role and written by David Webb Peoples. The film tells the story of William Munny, an aging outlaw and killer who takes on one more job, years after he had turned to farming. The film co-stars Gene Hackman, Morgan Freeman, and Richard Harris."
+  },
+
+  {
+    "id": 12,
+    "name": "Tommy Vercetti",
+    "imageName": "TommyVercetti",
+    "section": "GameCharacter",
+    "description": "Thomas \"Tommy\" Vercetti is a character in the Grand Theft Auto series who appears as the protagonist of Grand Theft Auto: Vice City (set in 1986). He is also mentioned in The Introduction, a prequel of Grand Theft Auto: San Andreas (set in 1992), and in the game itself during the mission The Meat Business by former friend and lawyer Ken Rosenberg. Tommy was voiced by late movie actor Ray Liotta, making him the first protagonist in the series with a voice actor."
+  },
+
+  {
+    "id": 13,
+    "name": "Wayne Rooney",
+    "imageName": "WayneRooney",
+    "section": "FootballPlayer",
+    "description": "Wayne Mark Rooney (born 24 October 1985) is an English professional football manager and former player. He is the current manager for Major League Soccer club D.C. United in the USA. He was previously the manager of English club Derby County, for whom he previously served as player-manager. He spent much of his playing career as a forward while also being used in various midfield roles. Widely considered one of the best players of his generation, Rooney is the record goalscorer for both the England national team and Manchester United as well as holding the record for the most appearances of any outfield player for the England national team."
+  }
+]
+
+ 
