@@ -19,7 +19,7 @@ struct FavouritesList: View {
         NavigationView {
             List(dataManager.data) { favourite in
                 NavigationLink {
-                    DetailView(dataModel: favourite)
+                    DetailView(favouriteItem: favourite)
                 } label: {
                     FavouritesRow(imageName: favourite.imageName,
                                   text: favourite.name)

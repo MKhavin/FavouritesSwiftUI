@@ -16,8 +16,7 @@ struct FavouritesRow: View {
             Image(imageName)
                 .resizable()
                 .frame(width: 100, height: 100)
-                .aspectRatio(contentMode: .fit)
-                .cornerRadius(10)
+                .modifier(FavouriteImage())
             
             Text(text)
                 .padding()
